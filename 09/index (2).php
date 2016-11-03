@@ -43,8 +43,8 @@ function printa(){
     $b = 20;
     echo $a;
 }
-printa();//ничего не выведет
-echo $b;//ничего не выведет
+printa();//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+echo $b;//пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 echo "<hr>";
 function sum($a, $b){
     return $a + $b;
@@ -61,7 +61,7 @@ function rand_array($n, $min = 1, $max = 10){
 $testArray = rand_array(10, 1, 100);
 $testArray1 = rand_array(20, 1, 100);
 var_dump($testArray);
-function all_sum(...$arguments){//бесконечное число аргументов. $arguments - массив
+function all_sum(...$arguments){//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. $arguments - пїЅпїЅпїЅпїЅпїЅпїЅ
     var_dump($arguments);
     $sum = 0;
     foreach ($arguments as $arg) {
